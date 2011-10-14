@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Include application autoloader -->
+<phpunit bootstrap="./../../../app/AppLoader.php" colors="true">
+    <testsuites>
+        <testsuite name="MultiColumnSearch Test Suite">
+            <directory>./</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
