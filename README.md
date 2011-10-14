@@ -101,7 +101,7 @@ Configured with Symfony Dependency Injection even easier:
 
     $container
     	->get('ost.doctrine.multicolumn_search.builder_factory')
-    	->creatBuilder('\\User')
+    	->createBuilder('\\User')
     	->getPagerfanta('my query');
 
 License
