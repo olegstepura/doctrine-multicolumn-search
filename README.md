@@ -24,15 +24,15 @@ What columns to match is up to you and is configurable.
 
 Lets assume you have a database table with all the users of your system.
 
-    -----------------------------------------------------------
+    +----+-------------+--------------+-----------------------+
     | id | name        | last_name    | email                 |
-    |----|-------------|--------------|-----------------------|
+    +----+-------------+--------------+-----------------------+
     | 1  |    Leonardo | DiCaprio     | strange@mailhost.com  |
     | 2  |        John | Doe          | john.doe@leonardo.ru  |
     | 3  |        Bill | Gates        | bill@gates.it         |
     | 4  |        Will | Leonardo     | will@leo.com          |
     | 5  | Leonardo123 | De Niro      | leo@deniro.de         |
-    -----------------------------------------------------------
+    +----+-------------+--------------+-----------------------+
 
 Searching for "leonardo" will produce records 1, 2, 4 and 5.
 Searching for "leo com" will produce records 1, 2, 4 and 5.
