@@ -114,7 +114,7 @@ Author
 -----------------
 
 The work was made by Oleg Stepura. If you have questions feel free to contact me at
-oleg[dot]stepura [-at-] gmail[dot]com
+github [-at-] oleg.stepura.com
 
 [1]: https://github.com/whiteoctober/Pagerfanta
 [2]: http://www.doctrine-project.org/projects/orm
