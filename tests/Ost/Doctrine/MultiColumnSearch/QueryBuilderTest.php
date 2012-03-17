@@ -1,7 +1,7 @@
 <?php
 /**
- * @author Oleg Stepura <oleg.stepura [at] gmail.com>
- * @copyright Oleg Stepura <oleg.stepura [at] gmail.com>
+ * @author Oleg Stepura <github@oleg.stepura.com>
+ * @copyright Oleg Stepura <github@oleg.stepura.com>
  * @version $Id: QueryBuilderTest.php,v 461d35d91fc4 2011/09/30 16:05:50 cds $
  */
 
@@ -20,7 +20,7 @@ require_once __DIR__ . '/User.php';
 
 /**
  * QueryBuilderTest class.
- * @author Oleg Stepura <oleg.stepura [at] gmail.com>
+ * @author Oleg Stepura <github@oleg.stepura.com>
  * @version 1.0
  */
 class QueryBuilderTest extends \PHPUnit_Framework_TestCase

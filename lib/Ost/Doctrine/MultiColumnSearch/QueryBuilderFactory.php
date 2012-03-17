@@ -1,7 +1,7 @@
 <?php
 /**
- * @author Oleg Stepura <oleg.stepura [at] gmail.com>
- * @copyright Oleg Stepura <oleg.stepura [at] gmail.com>
+ * @author Oleg Stepura <github@oleg.stepura.com>
+ * @copyright Oleg Stepura <github@oleg.stepura.com>
  * @version $Id: QueryBuilderFactory.php,v 461d35d91fc4 2011/09/30 16:05:50 cds $
  */
 
@@ -12,7 +12,7 @@ use Doctrine\Common\Annotations\Reader;
 /**
  * QueryBuilderFactory class for handling dependencies.
  * Is intended to be stored in dependency injection container.
- * @author Oleg Stepura <oleg.stepura [at] gmail.com>
+ * @author Oleg Stepura <github@oleg.stepura.com>
  * @version 1.0
  */
 class QueryBuilderFactory

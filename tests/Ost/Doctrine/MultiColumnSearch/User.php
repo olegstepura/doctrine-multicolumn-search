@@ -1,7 +1,7 @@
 <?php
 /**
- * @author Oleg Stepura <oleg.stepura [at] gmail.com>
- * @copyright Oleg Stepura <oleg.stepura [at] gmail.com>
+ * @author Oleg Stepura <github@oleg.stepura.com>
+ * @copyright Oleg Stepura <github@oleg.stepura.com>
  * @version $Id$
  */
 
@@ -13,7 +13,7 @@ use Ost\Doctrine\MultiColumnSearch\Searchable;
  * User class.
  * @ORM\Entity
  * @ORM\Table(name="user")
- * @author Oleg Stepura <oleg.stepura [at] gmail.com>
+ * @author Oleg Stepura <github@oleg.stepura.com>
  * @version 1.0
  */
 class User
