@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "doctrine/orm": "dev-master",
+        "doctrine/orm": ">= 2.0",
         "pagerfanta/pagerfanta": "dev-master"
     },
 	"autoload": {
