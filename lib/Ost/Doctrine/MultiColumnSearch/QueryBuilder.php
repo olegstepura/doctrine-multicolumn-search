@@ -144,8 +144,10 @@ class QueryBuilder
 	 */
 	public function getPagerfantaAdapter($searchQuery)
 	{
-		return new DoctrineORMAdapter(
-			$this->createDoctrineQueryBuilder($searchQuery)
+		return new PagerfantaAdapter(
+			$this->createDoctrineQueryBuilder($searchQuery),
+			$this->entityManager,
+			$this->entityName
 		);
 	}
 
@@ -155,8 +157,6 @@ class QueryBuilder
 	 */
 	public function getPagerfanta($searchQuery)
 	{
-		return new Pagerfanta(new DoctrineORMAdapter(
-			$this->createDoctrineQueryBuilder($searchQuery)
-		));
+		return new Pagerfanta($this->getPagerfantaAdapter($searchQuery));
 	}
 }
